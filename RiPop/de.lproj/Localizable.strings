@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  RiPop
+
+  Created by Ebu Bekir Celik on 29.12.18.
+  Copyright © 2018 KeepEasy. All rights reserved.
+*/
+
+//gameviewcontroller
+"GameOver" = "Spielende";
+"YourScore" = "Erreichte Punkteanzahl: ";
+"OkayBtn" = "Verstanden";
+
+//menuviewcontroller
+"Highscore" = "Highscore: ";
+
+//menuinfoviewcontroller
+"informationtext" = "Willkommen bei RiPop!\n\n\nIn diesem Spiel musst du versuchen den farbigen Ball in die entsprechende Farbe zu werfen. Aber sei vorsichtig und habe Spaß!\nFalls dir mein Spiel gefallen hat, dann bewerte es doch bitte im App Store.\n\n\nDein Entwickler, Celik Ebu";
+"informationsubtitle" = "Spielinformation";
+
+//menudeveloperviewcontroller
+"contact" = "Kontakt:";
+"contactsubtitle" = "Entwickler";
+
+//instructionviewcontroller
+"first" = "Bei Spielstart läuft zuerst ein Countdowntimer von 3 bis 1.";
+"second" = "Danach kannst du mit dem Finger wischen, um den Ball zu werfen.";
+"third" = "Mit drei Leben und einer Zeit, bekommst du bei Levelaufstieg extra Zeit und ein extra Leben.";
+"fourth" = "Wenn du verlierst, kannst du erneut spielen oder zum Menü zurückkehren.";

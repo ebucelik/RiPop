@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  RiPop
+
+  Created by Ebu Bekir Celik on 29.12.18.
+  Copyright © 2018 KeepEasy. All rights reserved.
+*/
+
+
+//gameviewcontroller
+"GameOver" = "Oyun bitti";
+"YourScore" = "Ulaşılan puan: ";
+"OkayBtn" = "Tamam";
+
+//menuviewcontroller
+"Highscore" = "En yüksek puan: ";
+
+//menuinfoviewcontroller
+"informationtext" = "RiPop'a Hoşgeldiniz!\n\n\nBu oyunda renkli topu karşılık gelen renke atmaya çalışmak zorundasınız. Ama dikkatli ol ve eğlen!\nOyunumu beğendiyseniz, lütfen App Store'da oylayın.\n\n\nGeliştiriciniz, Celik Ebu";
+"informationsubtitle" = "Oyun bilgi";
+
+//menudeveloperviewcontroller
+"contact" = "Kontak:";
+"contactsubtitle" = "Geliştirici";
+
+//instructionviewcontroller
+"first" = "Başlangıçta, oyun başlamadan önce bir zamanlayıcı 3'den 1'e düşer.";
+"second" = "Sonra topu atmak için kaydırın.";
+"third" = "Üç canın ve belli bir zamanın var. Her seviyede ekstra bir zaman ve ekstra bir hayat kazanırsın.";
+"fourth" = "Kaybederseniz, tekrar oynayabilir veya menüye geri dönebilirsiniz.";
+
+//loginviewcontroller
+

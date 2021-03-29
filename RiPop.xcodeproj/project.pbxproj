@@ -7,14 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		282EFB62DDFF395AF1D2854D /* Pods_RiPopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D32FE9364226D8F53E53A3F4 /* Pods_RiPopUITests.framework */; };
 		7103BC9F21CBD9F300194A2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103BC9E21CBD9F300194A2B /* AppDelegate.swift */; };
-		7103BCA121CBD9F300194A2B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 7103BCA021CBD9F300194A2B /* art.scnassets */; };
 		7103BCA321CBD9F300194A2B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103BCA221CBD9F300194A2B /* GameViewController.swift */; };
-		7103BCA621CBD9F300194A2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7103BCA421CBD9F300194A2B /* Main.storyboard */; };
 		7103BCA821CBD9F400194A2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7103BCA721CBD9F400194A2B /* Assets.xcassets */; };
 		7103BCAB21CBD9F400194A2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7103BCA921CBD9F400194A2B /* LaunchScreen.storyboard */; };
 		7103BCB621CBD9F400194A2B /* RiPopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103BCB521CBD9F400194A2B /* RiPopTests.swift */; };
 		7103BCC121CBD9F400194A2B /* RiPopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7103BCC021CBD9F400194A2B /* RiPopUITests.swift */; };
+		71253B5121D7A908001FE227 /* first.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 71253B4D21D7A908001FE227 /* first.PNG */; };
+		71253B5221D7A908001FE227 /* fourth.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 71253B4E21D7A908001FE227 /* fourth.PNG */; };
+		71253B5321D7A908001FE227 /* third.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 71253B4F21D7A908001FE227 /* third.PNG */; };
+		71253B5421D7A908001FE227 /* second.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 71253B5021D7A908001FE227 /* second.PNG */; };
+		71253B5D21D7C2D9001FE227 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71253B5F21D7C2D9001FE227 /* Localizable.strings */; };
+		71253B6321D7E5CE001FE227 /* welcome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71253B6221D7E5CE001FE227 /* welcome.mp3 */; };
+		71253B6521D7E775001FE227 /* tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71253B6421D7E775001FE227 /* tap.mp3 */; };
+		71253B6921D7EE82001FE227 /* countdown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71253B6821D7EE82001FE227 /* countdown.mp3 */; };
+		71253B6B21D7F0F9001FE227 /* start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71253B6A21D7F0F9001FE227 /* start.mp3 */; };
+		713A8C4121D59D8E002207BB /* MenuDeveloperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713A8C4021D59D8E002207BB /* MenuDeveloperViewController.swift */; };
+		71764E4F21DFC50B00F18B3A /* CheckInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71764E4E21DFC50B00F18B3A /* CheckInternet.swift */; };
+		71764E5321DFDB8C00F18B3A /* RankingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71764E5221DFDB8C00F18B3A /* RankingTableViewCell.swift */; };
+		71764E5521DFDBC700F18B3A /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71764E5421DFDBC700F18B3A /* RankingViewController.swift */; };
+		71764E5721DFDD8D00F18B3A /* Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71764E5621DFDD8D00F18B3A /* Records.swift */; };
+		71764E5A21E0010F00F18B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71764E5821E0010F00F18B3A /* Main.storyboard */; };
+		71764E5F21E01E9100F18B3A /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71764E5D21E01E9100F18B3A /* Main.strings */; };
+		719C291121D3AB890083880E /* levelup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 719C291021D3AB890083880E /* levelup.mp3 */; };
+		719C291321D3F3600083880E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719C291221D3F3600083880E /* WelcomeViewController.swift */; };
+		71BFC71321D52A44007177AC /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BFC71221D52A44007177AC /* MenuViewController.swift */; };
+		71BFC71721D52B53007177AC /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BFC71621D52B53007177AC /* SWRevealViewController.m */; };
+		71BFC71921D55356007177AC /* MenuInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BFC71821D55356007177AC /* MenuInfoViewController.swift */; };
+		71C9A74321DE10180009FA6C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71C9A74221DE10180009FA6C /* GoogleService-Info.plist */; };
+		71C9A74A21DE6C9E0009FA6C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C9A74921DE6C9E0009FA6C /* LoginViewController.swift */; };
+		71C9FB3621D111FA009BDD30 /* ballsound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71C9FB3521D111FA009BDD30 /* ballsound.mp3 */; };
+		71C9FB3921D113C6009BDD30 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C9FB3821D113C6009BDD30 /* AVFoundation.framework */; };
+		71D165B921D24C7200A19871 /* falsesound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71D165B821D24C7200A19871 /* falsesound.mp3 */; };
+		71D88E4221D61F8300DAD27E /* logoripop.png in Resources */ = {isa = PBXBuildFile; fileRef = 71D88E4121D61F8300DAD27E /* logoripop.png */; };
+		71D88E4A21D6345D00DAD27E /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 71D88E4921D6345C00DAD27E /* instagram.png */; };
+		71E0C61621D69F7000C46B8C /* InstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E0C61521D69F7000C46B8C /* InstructionViewController.swift */; };
+		CB70FAD76DA9BF96C3C8F713 /* Pods_RiPopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABCDF1E756568A9F575291C /* Pods_RiPopTests.framework */; };
+		F907A2859A51972963966D6E /* Pods_RiPop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14EEC93BBBDE2D8B7D35977 /* Pods_RiPop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +65,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		062CC73D56A56198976271E8 /* Pods-RiPopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiPopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RiPopTests/Pods-RiPopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C9F55CDB3A950E51FEB068D /* Pods-RiPop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiPop.release.xcconfig"; path = "Pods/Target Support Files/Pods-RiPop/Pods-RiPop.release.xcconfig"; sourceTree = "<group>"; };
+		501DA8C9072E60442A6E7AAE /* Pods-RiPopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiPopUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RiPopUITests/Pods-RiPopUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7103BC9B21CBD9F300194A2B /* RiPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7103BC9E21CBD9F300194A2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7103BCA021CBD9F300194A2B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		7103BCA221CBD9F300194A2B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		7103BCA521CBD9F300194A2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7103BCA721CBD9F400194A2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7103BCAA21CBD9F400194A2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7103BCAC21CBD9F400194A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +80,50 @@
 		7103BCBC21CBD9F400194A2B /* RiPopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiPopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7103BCC021CBD9F400194A2B /* RiPopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiPopUITests.swift; sourceTree = "<group>"; };
 		7103BCC221CBD9F400194A2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71253B4D21D7A908001FE227 /* first.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.PNG; sourceTree = "<group>"; };
+		71253B4E21D7A908001FE227 /* fourth.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fourth.PNG; sourceTree = "<group>"; };
+		71253B4F21D7A908001FE227 /* third.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third.PNG; sourceTree = "<group>"; };
+		71253B5021D7A908001FE227 /* second.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.PNG; sourceTree = "<group>"; };
+		71253B5621D7BE7B001FE227 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		71253B5E21D7C2D9001FE227 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		71253B6021D7C2DB001FE227 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		71253B6221D7E5CE001FE227 /* welcome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = welcome.mp3; sourceTree = "<group>"; };
+		71253B6421D7E775001FE227 /* tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tap.mp3; sourceTree = "<group>"; };
+		71253B6821D7EE82001FE227 /* countdown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = countdown.mp3; sourceTree = "<group>"; };
+		71253B6A21D7F0F9001FE227 /* start.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = start.mp3; sourceTree = "<group>"; };
+		713A8C4021D59D8E002207BB /* MenuDeveloperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDeveloperViewController.swift; sourceTree = "<group>"; };
+		71764E4E21DFC50B00F18B3A /* CheckInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInternet.swift; sourceTree = "<group>"; };
+		71764E5221DFDB8C00F18B3A /* RankingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingTableViewCell.swift; sourceTree = "<group>"; };
+		71764E5421DFDBC700F18B3A /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		71764E5621DFDD8D00F18B3A /* Records.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Records.swift; sourceTree = "<group>"; };
+		71764E5921E0010F00F18B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71764E5B21E01E5400F18B3A /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		71764E5C21E01E5400F18B3A /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		71764E5E21E01E9100F18B3A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		71764E6021E01EAC00F18B3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		71764E6121E01EB900F18B3A /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		71764E6221E0216700F18B3A /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		719C291021D3AB890083880E /* levelup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = levelup.mp3; sourceTree = "<group>"; };
+		719C291221D3F3600083880E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		71BFC71221D52A44007177AC /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		71BFC71421D52B52007177AC /* RiPop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RiPop-Bridging-Header.h"; sourceTree = "<group>"; };
+		71BFC71521D52B53007177AC /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		71BFC71621D52B53007177AC /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		71BFC71821D55356007177AC /* MenuInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInfoViewController.swift; sourceTree = "<group>"; };
+		71C9A74221DE10180009FA6C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		71C9A74921DE6C9E0009FA6C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		71C9FB3521D111FA009BDD30 /* ballsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ballsound.mp3; sourceTree = "<group>"; };
+		71C9FB3821D113C6009BDD30 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		71D165B821D24C7200A19871 /* falsesound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = falsesound.mp3; sourceTree = "<group>"; };
+		71D88E4121D61F8300DAD27E /* logoripop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoripop.png; path = ../../logoripop.png; sourceTree = "<group>"; };
+		71D88E4921D6345C00DAD27E /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram.png; sourceTree = "<group>"; };
+		71E0C61521D69F7000C46B8C /* InstructionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionViewController.swift; sourceTree = "<group>"; };
+		7AEA1433151AAB53FDBE540F /* Pods-RiPopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiPopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RiPopTests/Pods-RiPopTests.release.xcconfig"; sourceTree = "<group>"; };
+		837B8A5C9F2D4FE60790FC75 /* Pods-RiPop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiPop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RiPop/Pods-RiPop.debug.xcconfig"; sourceTree = "<group>"; };
+		8ABCDF1E756568A9F575291C /* Pods_RiPopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RiPopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA49627A8517B7230B0C75E /* Pods-RiPopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiPopUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RiPopUITests/Pods-RiPopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D14EEC93BBBDE2D8B7D35977 /* Pods_RiPop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RiPop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32FE9364226D8F53E53A3F4 /* Pods_RiPopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RiPopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +131,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71C9FB3921D113C6009BDD30 /* AVFoundation.framework in Frameworks */,
+				F907A2859A51972963966D6E /* Pods_RiPop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB70FAD76DA9BF96C3C8F713 /* Pods_RiPopTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				282EFB62DDFF395AF1D2854D /* Pods_RiPopUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +162,21 @@
 				7103BCB421CBD9F400194A2B /* RiPopTests */,
 				7103BCBF21CBD9F400194A2B /* RiPopUITests */,
 				7103BC9C21CBD9F300194A2B /* Products */,
+				71D88E4921D6345C00DAD27E /* instagram.png */,
+				71C9FB3521D111FA009BDD30 /* ballsound.mp3 */,
+				71D165B821D24C7200A19871 /* falsesound.mp3 */,
+				71253B6821D7EE82001FE227 /* countdown.mp3 */,
+				71253B6221D7E5CE001FE227 /* welcome.mp3 */,
+				71253B6A21D7F0F9001FE227 /* start.mp3 */,
+				71253B6421D7E775001FE227 /* tap.mp3 */,
+				71D88E4121D61F8300DAD27E /* logoripop.png */,
+				719C291021D3AB890083880E /* levelup.mp3 */,
+				71253B4D21D7A908001FE227 /* first.PNG */,
+				71253B5021D7A908001FE227 /* second.PNG */,
+				71253B4F21D7A908001FE227 /* third.PNG */,
+				71253B4E21D7A908001FE227 /* fourth.PNG */,
+				71C9FB3721D113C6009BDD30 /* Frameworks */,
+				A7A1B204B9CE3B4EB6570F11 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +194,27 @@
 			isa = PBXGroup;
 			children = (
 				7103BC9E21CBD9F300194A2B /* AppDelegate.swift */,
-				7103BCA021CBD9F300194A2B /* art.scnassets */,
 				7103BCA221CBD9F300194A2B /* GameViewController.swift */,
-				7103BCA421CBD9F300194A2B /* Main.storyboard */,
+				71764E5821E0010F00F18B3A /* Main.storyboard */,
+				71764E5D21E01E9100F18B3A /* Main.strings */,
+				71253B5F21D7C2D9001FE227 /* Localizable.strings */,
 				7103BCA721CBD9F400194A2B /* Assets.xcassets */,
 				7103BCA921CBD9F400194A2B /* LaunchScreen.storyboard */,
 				7103BCAC21CBD9F400194A2B /* Info.plist */,
+				71C9A74221DE10180009FA6C /* GoogleService-Info.plist */,
+				719C291221D3F3600083880E /* WelcomeViewController.swift */,
+				71BFC71221D52A44007177AC /* MenuViewController.swift */,
+				71BFC71521D52B53007177AC /* SWRevealViewController.h */,
+				71BFC71621D52B53007177AC /* SWRevealViewController.m */,
+				71BFC71421D52B52007177AC /* RiPop-Bridging-Header.h */,
+				71BFC71821D55356007177AC /* MenuInfoViewController.swift */,
+				713A8C4021D59D8E002207BB /* MenuDeveloperViewController.swift */,
+				71E0C61521D69F7000C46B8C /* InstructionViewController.swift */,
+				71C9A74921DE6C9E0009FA6C /* LoginViewController.swift */,
+				71764E4E21DFC50B00F18B3A /* CheckInternet.swift */,
+				71764E5221DFDB8C00F18B3A /* RankingTableViewCell.swift */,
+				71764E5421DFDBC700F18B3A /* RankingViewController.swift */,
+				71764E5621DFDD8D00F18B3A /* Records.swift */,
 			);
 			path = RiPop;
 			sourceTree = "<group>";
@@ -128,6 +237,30 @@
 			path = RiPopUITests;
 			sourceTree = "<group>";
 		};
+		71C9FB3721D113C6009BDD30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71C9FB3821D113C6009BDD30 /* AVFoundation.framework */,
+				D14EEC93BBBDE2D8B7D35977 /* Pods_RiPop.framework */,
+				8ABCDF1E756568A9F575291C /* Pods_RiPopTests.framework */,
+				D32FE9364226D8F53E53A3F4 /* Pods_RiPopUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7A1B204B9CE3B4EB6570F11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				837B8A5C9F2D4FE60790FC75 /* Pods-RiPop.debug.xcconfig */,
+				0C9F55CDB3A950E51FEB068D /* Pods-RiPop.release.xcconfig */,
+				062CC73D56A56198976271E8 /* Pods-RiPopTests.debug.xcconfig */,
+				7AEA1433151AAB53FDBE540F /* Pods-RiPopTests.release.xcconfig */,
+				8EA49627A8517B7230B0C75E /* Pods-RiPopUITests.debug.xcconfig */,
+				501DA8C9072E60442A6E7AAE /* Pods-RiPopUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +268,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7103BCC521CBD9F400194A2B /* Build configuration list for PBXNativeTarget "RiPop" */;
 			buildPhases = (
+				E5A9D6874CEFA7BC0AEE4CE6 /* [CP] Check Pods Manifest.lock */,
 				7103BC9721CBD9F200194A2B /* Sources */,
 				7103BC9821CBD9F200194A2B /* Frameworks */,
 				7103BC9921CBD9F200194A2B /* Resources */,
+				9C7052119E1FB15982E628F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +287,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7103BCC821CBD9F400194A2B /* Build configuration list for PBXNativeTarget "RiPopTests" */;
 			buildPhases = (
+				76F4D102671D3984DD36982F /* [CP] Check Pods Manifest.lock */,
 				7103BCAD21CBD9F400194A2B /* Sources */,
 				7103BCAE21CBD9F400194A2B /* Frameworks */,
 				7103BCAF21CBD9F400194A2B /* Resources */,
@@ -170,6 +306,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7103BCCB21CBD9F400194A2B /* Build configuration list for PBXNativeTarget "RiPopUITests" */;
 			buildPhases = (
+				FDDAB3E6F7ECFBB8BA1CCF06 /* [CP] Check Pods Manifest.lock */,
 				7103BCB821CBD9F400194A2B /* Sources */,
 				7103BCB921CBD9F400194A2B /* Frameworks */,
 				7103BCBA21CBD9F400194A2B /* Resources */,
@@ -196,6 +333,7 @@
 				TargetAttributes = {
 					7103BC9A21CBD9F200194A2B = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					7103BCB021CBD9F400194A2B = {
 						CreatedOnToolsVersion = 10.1;
@@ -214,6 +352,8 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				tr,
 			);
 			mainGroup = 7103BC9221CBD9F200194A2B;
 			productRefGroup = 7103BC9C21CBD9F300194A2B /* Products */;
@@ -232,10 +372,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7103BCA121CBD9F300194A2B /* art.scnassets in Resources */,
 				7103BCAB21CBD9F400194A2B /* LaunchScreen.storyboard in Resources */,
+				71D165B921D24C7200A19871 /* falsesound.mp3 in Resources */,
+				71D88E4221D61F8300DAD27E /* logoripop.png in Resources */,
+				71253B5221D7A908001FE227 /* fourth.PNG in Resources */,
+				71253B5121D7A908001FE227 /* first.PNG in Resources */,
+				71253B5421D7A908001FE227 /* second.PNG in Resources */,
+				71253B6521D7E775001FE227 /* tap.mp3 in Resources */,
+				71C9FB3621D111FA009BDD30 /* ballsound.mp3 in Resources */,
+				71253B6B21D7F0F9001FE227 /* start.mp3 in Resources */,
+				719C291121D3AB890083880E /* levelup.mp3 in Resources */,
 				7103BCA821CBD9F400194A2B /* Assets.xcassets in Resources */,
-				7103BCA621CBD9F300194A2B /* Main.storyboard in Resources */,
+				71C9A74321DE10180009FA6C /* GoogleService-Info.plist in Resources */,
+				71253B5D21D7C2D9001FE227 /* Localizable.strings in Resources */,
+				71D88E4A21D6345D00DAD27E /* instagram.png in Resources */,
+				71253B6921D7EE82001FE227 /* countdown.mp3 in Resources */,
+				71764E5A21E0010F00F18B3A /* Main.storyboard in Resources */,
+				71253B6321D7E5CE001FE227 /* welcome.mp3 in Resources */,
+				71253B5321D7A908001FE227 /* third.PNG in Resources */,
+				71764E5F21E01E9100F18B3A /* Main.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,13 +410,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		76F4D102671D3984DD36982F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RiPopTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C7052119E1FB15982E628F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RiPop/Pods-RiPop-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RiPop/Pods-RiPop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5A9D6874CEFA7BC0AEE4CE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RiPop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDDAB3E6F7ECFBB8BA1CCF06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RiPopUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7103BC9721CBD9F200194A2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71764E5721DFDD8D00F18B3A /* Records.swift in Sources */,
+				71C9A74A21DE6C9E0009FA6C /* LoginViewController.swift in Sources */,
+				719C291321D3F3600083880E /* WelcomeViewController.swift in Sources */,
+				713A8C4121D59D8E002207BB /* MenuDeveloperViewController.swift in Sources */,
 				7103BCA321CBD9F300194A2B /* GameViewController.swift in Sources */,
+				71E0C61621D69F7000C46B8C /* InstructionViewController.swift in Sources */,
+				71BFC71721D52B53007177AC /* SWRevealViewController.m in Sources */,
+				71BFC71921D55356007177AC /* MenuInfoViewController.swift in Sources */,
 				7103BC9F21CBD9F300194A2B /* AppDelegate.swift in Sources */,
+				71BFC71321D52A44007177AC /* MenuViewController.swift in Sources */,
+				71764E5321DFDB8C00F18B3A /* RankingTableViewCell.swift in Sources */,
+				71764E4F21DFC50B00F18B3A /* CheckInternet.swift in Sources */,
+				71764E5521DFDBC700F18B3A /* RankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,20 +558,43 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7103BCA421CBD9F300194A2B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7103BCA521CBD9F300194A2B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7103BCA921CBD9F400194A2B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7103BCAA21CBD9F400194A2B /* Base */,
+				71253B5621D7BE7B001FE227 /* de */,
+				71764E5C21E01E5400F18B3A /* tr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		71253B5F21D7C2D9001FE227 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71253B5E21D7C2D9001FE227 /* en */,
+				71253B6021D7C2DB001FE227 /* de */,
+				71764E6221E0216700F18B3A /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		71764E5821E0010F00F18B3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71764E5921E0010F00F18B3A /* Base */,
+				71764E5B21E01E5400F18B3A /* tr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71764E5D21E01E9100F18B3A /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71764E5E21E01E9100F18B3A /* de */,
+				71764E6021E01EAC00F18B3A /* en */,
+				71764E6121E01EB900F18B3A /* tr */,
+			);
+			name = Main.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -320,6 +604,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -367,7 +652,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -381,6 +666,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -422,7 +708,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -434,17 +720,24 @@
 		};
 		7103BCC621CBD9F400194A2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837B8A5C9F2D4FE60790FC75 /* Pods-RiPop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7UZH6B548Y;
 				INFOPLIST_FILE = RiPop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = KeepEasy.RiPop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KeepEasy.RiPop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "RiPop/RiPop-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,17 +745,23 @@
 		};
 		7103BCC721CBD9F400194A2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C9F55CDB3A950E51FEB068D /* Pods-RiPop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7UZH6B548Y;
 				INFOPLIST_FILE = RiPop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = KeepEasy.RiPop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KeepEasy.RiPop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "RiPop/RiPop-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -470,6 +769,7 @@
 		};
 		7103BCC921CBD9F400194A2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 062CC73D56A56198976271E8 /* Pods-RiPopTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +791,7 @@
 		};
 		7103BCCA21CBD9F400194A2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AEA1433151AAB53FDBE540F /* Pods-RiPopTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +813,7 @@
 		};
 		7103BCCC21CBD9F400194A2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EA49627A8517B7230B0C75E /* Pods-RiPopUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +834,7 @@
 		};
 		7103BCCD21CBD9F400194A2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 501DA8C9072E60442A6E7AAE /* Pods-RiPopUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

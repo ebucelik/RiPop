@@ -1,0 +1,6 @@
+framework module Pods_RiPopUITests {
+  umbrella header "Pods-RiPopUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,78 @@
+
+/* Class = "UIButton"; normalTitle = "Back to Menu"; ObjectID = "3BY-4b-u0h"; */
+"3BY-4b-u0h.normalTitle" = "Back to Menu";
+
+/* Class = "UIButton"; normalTitle = "Start game"; ObjectID = "6Mv-Zz-6g6"; */
+"6Mv-Zz-6g6.normalTitle" = "Start game";
+
+/* Class = "UITableViewSection"; headerTitle = "Information"; ObjectID = "7Rz-d2-FVX"; */
+"7Rz-d2-FVX.headerTitle" = "Information";
+
+/* Class = "UIButton"; normalTitle = "Game Info"; ObjectID = "82y-Z4-SLk"; */
+"82y-Z4-SLk.normalTitle" = "Game Info";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "9Za-5s-2mR"; */
+"9Za-5s-2mR.title" = "Item";
+
+/* Class = "UISegmentedControl"; 9ep-bO-qpN.segmentTitles[0] = "Login"; ObjectID = "9ep-bO-qpN"; */
+"9ep-bO-qpN.segmentTitles[0]" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "9JN-u7-YSh"; */
+"9JN-u7-YSh.normalTitle" = "Register";
+
+/* Class = "UISegmentedControl"; 9ep-bO-qpN.segmentTitles[1] = "Register"; ObjectID = "9ep-bO-qpN"; */
+"9ep-bO-qpN.segmentTitles[1]" = "Register";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "FKT-GG-nlZ"; */
+"FKT-GG-nlZ.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "tQO-xN-5aw"; */
+"tQO-xN-5aw.normalTitle" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Ranklist"; ObjectID = "Qgh-ex-DMP"; */
+"Qgh-ex-DMP.normalTitle" = "Rank list";
+
+/* Class = "UIButton"; normalTitle = "Highscore"; ObjectID = "ocg-Az-i7i"; */
+"ocg-Az-i7i.normalTitle" = "Rank list";
+
+/* Class = "UITableViewSection"; headerTitle = "Ranking"; ObjectID = "nYd-dp-EgB"; */
+"nYd-dp-EgB.headerTitle" = "Rankings";
+
+/* Class = "UITableViewSection"; headerTitle = "Home"; ObjectID = "EoO-1E-0Fj"; */
+"EoO-1E-0Fj.headerTitle" = "Home";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "LZa-yw-ZU5"; */
+"LZa-yw-ZU5.normalTitle" = "Back";
+
+/* Class = "UITableViewSection"; headerTitle = "Instruction"; ObjectID = "Te0-UX-9Cq"; */
+"Te0-UX-9Cq.headerTitle" = "Instruction";
+
+/* Class = "UIButton"; normalTitle = "Instagram"; ObjectID = "WPi-ZH-5tC"; */
+"WPi-ZH-5tC.normalTitle" = "Instagram";
+
+/* Class = "UITextField"; text = "Menu"; ObjectID = "Wci-O9-Jwh"; */
+"Wci-O9-Jwh.text" = "Menu";
+
+/* Class = "UIButton"; normalTitle = "Instagram"; ObjectID = "YfF-mJ-wZe"; */
+"YfF-mJ-wZe.normalTitle" = "Instagram";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "fuA-pz-baN"; */
+"fuA-pz-baN.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "iDx-q7-DkA"; */
+"iDx-q7-DkA.normalTitle" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "irK-T6-0lH"; */
+"irK-T6-0lH.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Homescreen"; ObjectID = "l4j-n1-3T6"; */
+"l4j-n1-3T6.normalTitle" = "Homescreen";
+
+/* Class = "UIButton"; normalTitle = "Game instruction"; ObjectID = "nPP-8a-0vh"; */
+"nPP-8a-0vh.normalTitle" = "Game instruction";
+
+/* Class = "UIButton"; normalTitle = "Developer"; ObjectID = "wf5-aF-SUu"; */
+"wf5-aF-SUu.normalTitle" = "Developer";
+
+/* Class = "UIButton"; normalTitle = "Play again"; ObjectID = "yhC-ZY-grf"; */
+"yhC-ZY-grf.normalTitle" = "Play again";

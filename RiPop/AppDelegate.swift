@@ -7,15 +7,20 @@
 //
 
 import UIKit
+import AVFoundation
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        FirebaseApp.configure()
+        try? AVAudioSession.sharedInstance().setCategory(.ambient, mode: .init(rawValue: "mp3"), options: .allowBluetooth) //to hear music without stop in App
+        try? AVAudioSession.sharedInstance().setActive(true)
+        
         return true
     }
 

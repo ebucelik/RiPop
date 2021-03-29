@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  RiPop
+
+  Created by Ebu Bekir Celik on 29.12.18.
+  Copyright © 2018 KeepEasy. All rights reserved.
+*/
+
+//gameviewcontroller
+"GameOver" = "Game over";
+"YourScore" = "Your score: ";
+"OkayBtn" = "Okay";
+
+//menuviewcontroller
+"Highscore" = "Highscore: ";
+
+//menuinfoviewcontroller
+"informationtext" = "Welcome to RiPop!\n\n\nIn this game you must try to throw the ball to the right color. But be careful and have fun!\nIf you like the game please rate my app in the app store.\n\n\nYour Developer, Celik Ebu";
+"informationsubtitle" = "Game information";
+
+//menudeveloperviewcontroller
+"contact" = "Contact:";
+"contactsubtitle" = "Developer";
+
+//instructionviewcontroller
+"first" = "At the beginning, before the game starts, a timer goes down from 3 to 1.";
+"second" = "Then you can swipe to throw the ball.";
+"third" = "You have three lifes and a certain time. In each level you get an extra time and an extra life.";
+"fourth" = "If you lose, you can play again or go back to the menu.";
