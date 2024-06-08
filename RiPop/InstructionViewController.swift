@@ -127,7 +127,7 @@ class InstructionViewController: UIViewController {
         imageHelpText.backgroundColor = .clear
         imageHelpText.textColor = .white
         imageHelpText.text = helpText1
-        imageHelpText.font = UIFont(name: (imageHelpText.font?.fontName)!, size: 16)
+//        imageHelpText.font = UIFont(name: (imageHelpText.font?.fontName)!, size: 16)
         imageHelpText.isEditable = false
         imageHelpText.isSelectable = false
         view.addSubview(imageHelpText)

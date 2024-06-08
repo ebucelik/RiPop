@@ -94,7 +94,7 @@ class MenuDeveloperViewController: UIViewController {
         infotext.backgroundColor = .black
         infotext.textColor = .white
         infotext.text = contact + "\n\nCelik Ebu Bekir\nebucelik1@hotmail.com\nCopyright © 2018 Celik Ebu Bekir"
-        infotext.font = UIFont(name: (infotext.font?.fontName)!, size: 20)
+//        infotext.font = UIFont(name: (infotext.font?.fontName)!, size: 20)
         infotext.isEditable = false
         infotext.isSelectable = false
         view.addSubview(infotext)
@@ -104,7 +104,7 @@ class MenuDeveloperViewController: UIViewController {
         subtitle.textColor = .green
         subtitle.textAlignment = .center
         subtitle.text = contactsubtitle
-        subtitle.font = UIFont(name: (infotext.font?.fontName)!, size: 28)
+//        subtitle.font = UIFont(name: (infotext.font?.fontName)!, size: 28)
         subtitle.isEditable = false
         subtitle.isSelectable = false
         view.addSubview(subtitle)

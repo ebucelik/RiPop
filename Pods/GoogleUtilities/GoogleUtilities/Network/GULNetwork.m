@@ -12,14 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#import "Private/GULNetwork.h"
-#import "Private/GULNetworkMessageCode.h"
+#import "GoogleUtilities/Network/Public/GoogleUtilities/GULNetwork.h"
+#import "GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkMessageCode.h"
 
-#import <GoogleUtilities/GULLogger.h>
-#import <GoogleUtilities/GULNSData+zlib.h>
-#import <GoogleUtilities/GULReachabilityChecker.h>
-#import "Private/GULMutableDictionary.h"
-#import "Private/GULNetworkConstants.h"
+#import "GoogleUtilities/Logger/Public/GoogleUtilities/GULLogger.h"
+#import "GoogleUtilities/NSData+zlib/Public/GoogleUtilities/GULNSData+zlib.h"
+#import "GoogleUtilities/Network/GULNetworkInternal.h"
+#import "GoogleUtilities/Network/Public/GoogleUtilities/GULMutableDictionary.h"
+#import "GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkConstants.h"
+#import "GoogleUtilities/Reachability/Public/GoogleUtilities/GULReachabilityChecker.h"
 
 /// Constant string for request header Content-Encoding.
 static NSString *const kGULNetworkContentCompressionKey = @"Content-Encoding";
@@ -94,6 +95,20 @@ static NSString *const kGULNetworkLogTag = @"Google/Utilities/Network";
                      queue:(dispatch_queue_t)queue
     usingBackgroundSession:(BOOL)usingBackgroundSession
          completionHandler:(GULNetworkCompletionHandler)handler {
+  return [self postURL:url
+                     headers:nil
+                     payload:payload
+                       queue:queue
+      usingBackgroundSession:usingBackgroundSession
+           completionHandler:handler];
+}
+
+- (NSString *)postURL:(NSURL *)url
+                   headers:(NSDictionary *)headers
+                   payload:(NSData *)payload
+                     queue:(dispatch_queue_t)queue
+    usingBackgroundSession:(BOOL)usingBackgroundSession
+         completionHandler:(GULNetworkCompletionHandler)handler {
   if (!url.absoluteString.length) {
     [self handleErrorWithCode:GULErrorCodeNetworkInvalidURL queue:queue withHandler:handler];
     return nil;
@@ -112,6 +127,7 @@ static NSString *const kGULNetworkLogTag = @"Google/Utilities/Network";
                   withHandler:handler];
     return nil;
   }
+  request.allHTTPHeaderFields = headers;
 
   NSError *compressError = nil;
   NSData *compressedData = [NSData gul_dataByGzippingData:payload error:&compressError];
@@ -257,12 +273,12 @@ static NSString *const kGULNetworkLogTag = @"Google/Utilities/Network";
   // Explicitly check whether the delegate responds to the methods because conformsToProtocol does
   // not work correctly even though the delegate does respond to the methods.
   if (!loggerDelegate ||
-      ![loggerDelegate
-          respondsToSelector:@selector(GULNetwork_logWithLevel:messageCode:message:contexts:)] ||
-      ![loggerDelegate
-          respondsToSelector:@selector(GULNetwork_logWithLevel:messageCode:message:context:)] ||
-      !
-      [loggerDelegate respondsToSelector:@selector(GULNetwork_logWithLevel:messageCode:message:)]) {
+      ![loggerDelegate respondsToSelector:@selector(GULNetwork_logWithLevel:
+                                                                messageCode:message:contexts:)] ||
+      ![loggerDelegate respondsToSelector:@selector(GULNetwork_logWithLevel:
+                                                                messageCode:message:context:)] ||
+      ![loggerDelegate respondsToSelector:@selector(GULNetwork_logWithLevel:
+                                                                messageCode:message:)]) {
     GULLogError(kGULLoggerNetwork, NO,
                 [NSString stringWithFormat:@"I-NET%06ld", (long)kGULNetworkMessageCodeNetwork002],
                 @"Cannot set the network logger delegate: delegate does not conform to the network "
@@ -279,8 +295,9 @@ static NSString *const kGULNetworkLogTag = @"Google/Utilities/Network";
                       queue:(dispatch_queue_t)queue
                 withHandler:(GULNetworkCompletionHandler)handler {
   NSDictionary *userInfo = @{kGULNetworkErrorContext : @"Failed to create network request"};
-  NSError *error =
-      [[NSError alloc] initWithDomain:kGULNetworkErrorDomain code:code userInfo:userInfo];
+  NSError *error = [[NSError alloc] initWithDomain:kGULNetworkErrorDomain
+                                              code:code
+                                          userInfo:userInfo];
   [self GULNetwork_logWithLevel:kGULNetworkLogLevelWarning
                     messageCode:kGULNetworkMessageCodeNetwork002
                         message:@"Failed to create network request. Code, error"

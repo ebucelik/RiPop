@@ -215,7 +215,7 @@ class GameViewController: UIViewController {
         levelTime.backgroundColor = .black
         levelTime.textColor = .white
         levelTime.text = "30.0"
-        levelTime.font = UIFont(name: (levelTime.font?.fontName)!, size: 16)
+//        levelTime.font = UIFont(name: (levelTime.font?.fontName)!, size: 16)
         levelTime.isEditable = false
         levelTime.isSelectable = false
         view.addSubview(levelTime)
@@ -224,7 +224,7 @@ class GameViewController: UIViewController {
         levelExtraTime.backgroundColor = .clear
         levelExtraTime.textColor = .green
         levelExtraTime.text = "+30.0"
-        levelExtraTime.font = UIFont(name: (levelExtraTime.font?.fontName)!, size: 16)
+//        levelExtraTime.font = UIFont(name: (levelExtraTime.font?.fontName)!, size: 16)
         levelExtraTime.isEditable = false
         levelExtraTime.isSelectable = false
         levelExtraTime.isHidden = true
@@ -234,7 +234,7 @@ class GameViewController: UIViewController {
         levelText.backgroundColor = .black
         levelText.textColor = .white
         levelText.text = "Level " + String(levelCnt)
-        levelText.font = UIFont(name: (levelText.font?.fontName)!, size: 23)
+//        levelText.font = UIFont(name: (levelText.font?.fontName)!, size: 23)
         levelText.isEditable = false
         levelText.isSelectable = false
         view.addSubview(levelText)
@@ -243,7 +243,7 @@ class GameViewController: UIViewController {
         points.backgroundColor = .black
         points.textColor = .white
         points.text = String(point)
-        points.font = UIFont(name: (points.font?.fontName)!, size: 18)
+//        points.font = UIFont(name: (points.font?.fontName)!, size: 18)
         points.isEditable = false
         points.isSelectable = false
         view.addSubview(points)
@@ -419,7 +419,7 @@ class GameViewController: UIViewController {
         gameStartTimeText.backgroundColor = .clear
         gameStartTimeText.attributedText = NSMutableAttributedString(string: String(gameStartTimerCnt), attributes: strokeTextAttributes)
         gameStartTimeText.textAlignment = .center
-        gameStartTimeText.font = UIFont(name: (gameStartTimeText.font?.fontName)!, size: 150)
+//        gameStartTimeText.font = UIFont(name: (gameStartTimeText.font?.fontName)!, size: 150)
         gameStartTimeText.isEditable = false
         gameStartTimeText.isSelectable = false
         view.addSubview(gameStartTimeText)

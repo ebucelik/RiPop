@@ -58,7 +58,7 @@ class MenuInfoViewController: UIViewController {
         infotext.backgroundColor = .clear
         infotext.textColor = .white
         infotext.text = informationtext
-        infotext.font = UIFont(name: (infotext.font?.fontName)!, size: 20)
+//        infotext.font = UIFont(name: (infotext.font?.fontName)!, size: 20)
         infotext.isEditable = false
         infotext.isSelectable = false
         view.addSubview(infotext)
@@ -68,7 +68,7 @@ class MenuInfoViewController: UIViewController {
         subtitle.textColor = .green
         subtitle.textAlignment = .center
         subtitle.text = informationsubtitle
-        subtitle.font = UIFont(name: (subtitle.font?.fontName)!, size: 28)
+//        subtitle.font = UIFont(name: (subtitle.font?.fontName)!, size: 28)
         subtitle.isEditable = false
         subtitle.isSelectable = false
         view.addSubview(subtitle)

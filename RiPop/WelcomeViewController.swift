@@ -48,19 +48,20 @@ class WelcomeViewController: UIViewController {
     }
     
     @objc func game(){
-        if(!login)
-        {
-            //to open the menu
-            let menu = self.storyboard?.instantiateViewController(withIdentifier:  "log") as! LoginViewController
-            
-            self.present(menu, animated: true, completion: nil)
-        }
-        else
-        {
-            //to open the menu
-            let menu = self.storyboard?.instantiateViewController(withIdentifier:  "menu") as! SWRevealViewController
-            
-            self.present(menu, animated: true, completion: nil)
-        }
+//        if(!login)
+//        {
+//            //to open the menu
+//            let menu = self.storyboard?.instantiateViewController(withIdentifier:  "log") as! LoginViewController
+//            
+//            self.present(menu, animated: true, completion: nil)
+//        }
+//        else
+//        {
+//
+//        }
+        //to open the menu
+        let menu = self.storyboard?.instantiateViewController(withIdentifier:  "menu") as! SWRevealViewController
+
+        self.present(menu, animated: true, completion: nil)
     }
 }

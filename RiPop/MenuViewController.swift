@@ -105,7 +105,7 @@ class MenuViewController: UIViewController {
                 record.text = "Highscore".localizabelString(loc: "de") + "0"
             }
         }
-        record.font = UIFont(name: (record.font?.fontName)!, size: 20)
+//        record.font = UIFont(name: (record.font?.fontName)!, size: 20)
         record.isEditable = false
         record.isSelectable = false
         view.addSubview(record)

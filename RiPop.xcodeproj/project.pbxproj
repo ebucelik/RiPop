@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,6 +30,7 @@
 		71764E5721DFDD8D00F18B3A /* Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71764E5621DFDD8D00F18B3A /* Records.swift */; };
 		71764E5A21E0010F00F18B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71764E5821E0010F00F18B3A /* Main.storyboard */; };
 		71764E5F21E01E9100F18B3A /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71764E5D21E01E9100F18B3A /* Main.strings */; };
+		7196A9682C15109100A59C87 /* logoripop.png in Resources */ = {isa = PBXBuildFile; fileRef = 7196A9672C15109100A59C87 /* logoripop.png */; };
 		719C291121D3AB890083880E /* levelup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 719C291021D3AB890083880E /* levelup.mp3 */; };
 		719C291321D3F3600083880E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719C291221D3F3600083880E /* WelcomeViewController.swift */; };
 		71BFC71321D52A44007177AC /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BFC71221D52A44007177AC /* MenuViewController.swift */; };
@@ -40,7 +41,6 @@
 		71C9FB3621D111FA009BDD30 /* ballsound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71C9FB3521D111FA009BDD30 /* ballsound.mp3 */; };
 		71C9FB3921D113C6009BDD30 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C9FB3821D113C6009BDD30 /* AVFoundation.framework */; };
 		71D165B921D24C7200A19871 /* falsesound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71D165B821D24C7200A19871 /* falsesound.mp3 */; };
-		71D88E4221D61F8300DAD27E /* logoripop.png in Resources */ = {isa = PBXBuildFile; fileRef = 71D88E4121D61F8300DAD27E /* logoripop.png */; };
 		71D88E4A21D6345D00DAD27E /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 71D88E4921D6345C00DAD27E /* instagram.png */; };
 		71E0C61621D69F7000C46B8C /* InstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E0C61521D69F7000C46B8C /* InstructionViewController.swift */; };
 		CB70FAD76DA9BF96C3C8F713 /* Pods_RiPopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABCDF1E756568A9F575291C /* Pods_RiPopTests.framework */; };
@@ -103,6 +103,7 @@
 		71764E6021E01EAC00F18B3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		71764E6121E01EB900F18B3A /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
 		71764E6221E0216700F18B3A /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7196A9672C15109100A59C87 /* logoripop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoripop.png; sourceTree = "<group>"; };
 		719C291021D3AB890083880E /* levelup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = levelup.mp3; sourceTree = "<group>"; };
 		719C291221D3F3600083880E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		71BFC71221D52A44007177AC /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -115,7 +116,6 @@
 		71C9FB3521D111FA009BDD30 /* ballsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ballsound.mp3; sourceTree = "<group>"; };
 		71C9FB3821D113C6009BDD30 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		71D165B821D24C7200A19871 /* falsesound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = falsesound.mp3; sourceTree = "<group>"; };
-		71D88E4121D61F8300DAD27E /* logoripop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoripop.png; path = ../../logoripop.png; sourceTree = "<group>"; };
 		71D88E4921D6345C00DAD27E /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram.png; sourceTree = "<group>"; };
 		71E0C61521D69F7000C46B8C /* InstructionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionViewController.swift; sourceTree = "<group>"; };
 		7AEA1433151AAB53FDBE540F /* Pods-RiPopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiPopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RiPopTests/Pods-RiPopTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -169,7 +169,7 @@
 				71253B6221D7E5CE001FE227 /* welcome.mp3 */,
 				71253B6A21D7F0F9001FE227 /* start.mp3 */,
 				71253B6421D7E775001FE227 /* tap.mp3 */,
-				71D88E4121D61F8300DAD27E /* logoripop.png */,
+				7196A9672C15109100A59C87 /* logoripop.png */,
 				719C291021D3AB890083880E /* levelup.mp3 */,
 				71253B4D21D7A908001FE227 /* first.PNG */,
 				71253B5021D7A908001FE227 /* second.PNG */,
@@ -374,7 +374,6 @@
 			files = (
 				7103BCAB21CBD9F400194A2B /* LaunchScreen.storyboard in Resources */,
 				71D165B921D24C7200A19871 /* falsesound.mp3 in Resources */,
-				71D88E4221D61F8300DAD27E /* logoripop.png in Resources */,
 				71253B5221D7A908001FE227 /* fourth.PNG in Resources */,
 				71253B5121D7A908001FE227 /* first.PNG in Resources */,
 				71253B5421D7A908001FE227 /* second.PNG in Resources */,
@@ -391,6 +390,7 @@
 				71253B6321D7E5CE001FE227 /* welcome.mp3 in Resources */,
 				71253B5321D7A908001FE227 /* third.PNG in Resources */,
 				71764E5F21E01E9100F18B3A /* Main.strings in Resources */,
+				7196A9682C15109100A59C87 /* logoripop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,24 +439,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RiPop/Pods-RiPop-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-RiPop/Pods-RiPop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-RiPop/Pods-RiPop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RiPop/Pods-RiPop-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RiPop/Pods-RiPop-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E5A9D6874CEFA7BC0AEE4CE6 /* [CP] Check Pods Manifest.lock */ = {
@@ -652,7 +643,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -708,7 +699,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -728,7 +719,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7UZH6B548Y;
 				INFOPLIST_FILE = RiPop/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -736,10 +727,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.KeepEasy.RiPop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "RiPop/RiPop-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -753,7 +748,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7UZH6B548Y;
 				INFOPLIST_FILE = RiPop/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -761,9 +756,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.KeepEasy.RiPop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "RiPop/RiPop-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
